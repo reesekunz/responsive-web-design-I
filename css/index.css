@@ -197,6 +197,7 @@ footer {
             flex-direction: column;
             justify-content: center;
             align-items: center; 
+
         }
 
 .cta button  {display: flex;
@@ -223,14 +224,6 @@ header {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-    }
-    .navbar {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-
-       width: 100px;
     }
 
     .top-content {
@@ -272,25 +265,42 @@ header {
         padding: 20px;
     }
 
-    .navitem {
-        font-size: 14px;
-        width: 100px;
+
+    .logo {
+        height: 70px;
+        width: 300px;
+        padding: 10px;
+        margin: 0;
         border-bottom: 2px solid black;
+    }
+
+    .navbar {
+        width: 300px;
+        text-align: center;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+    }
+
+    .navitem {
+        font-size: 20px;
+        text-align: center;
+
+        width: 300px;
         padding: 20px;
-        margin-left: 30%
+        border-bottom: 2px solid black;
 
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
 
-    }
-
-    .logo {
-        border-bottom: 2px solid black;
-    }
-
 }
+}
+
 
 
 
