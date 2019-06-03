@@ -189,3 +189,32 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+
+@media (min-width: 800px)
+{
+.hiddenpicture {display: none !important;}
+.cta .cta-text  {display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; 
+        }
+
+.cta button  {display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+} 
+.navbar {display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+
+}
+
+}
+
+
+
+
+
