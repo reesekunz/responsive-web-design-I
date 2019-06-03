@@ -190,7 +190,7 @@ footer {
   font-size: 14px;
 }
 
-@media (min-width: 800px)
+@media (max-width: 800px)
 {
 .hiddenpicture {display: none !important;}
 .cta .cta-text  {display: flex;
@@ -214,6 +214,15 @@ header {
 
 }
 
+
+@media (max-width: 500px)
+{
+    .hiddenpicture {display: none !important;}
+
+
+
+
+}
 
 
 
